@@ -2,10 +2,6 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <variables>
-        <algolia-api-key>7412b5564227924acffdb260d13eb717</algolia-api-key>
-        <algolia-id>KWK60PZYQL</algolia-id>
-        <algolia-index>hzwl-iot-dev-docs</algolia-index>
-
     </variables>
     <build-profile instance="dev-docs">
         <variables>
