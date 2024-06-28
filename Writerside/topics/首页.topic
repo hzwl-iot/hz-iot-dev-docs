@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="首页" id="首页" help-id="home">
+
+    <section-starting-page>
+        <title>翰臻云</title>
+        <description>
+            翰臻云平台提供海量设备连接上云，安全可靠的设备连接通信能力支持设备和云端双向消息通信。开放设备监控、远程升级、场景联动、健康监测、AI数据治理等核心能力，帮助物联网行业用户快速完成设备联网及行业应用集成。
+        </description>
+
+        <spotlight>
+            <a href="平台架构.md" type="development"/>
+            <a href="用户体系.md" type="data"/>
+        </spotlight>
+
+        <primary>
+            <title>快速开始</title>
+            <a href="平台架构.md"/>
+        </primary>
+
+        <secondary>
+            <title>高级功能</title>
+            <a href="平台架构.md"/>
+        </secondary>
+
+    </section-starting-page>
+
+</topic>
