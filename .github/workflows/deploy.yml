@@ -56,16 +56,18 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    needs: [build, test]
+#    needs: [build, test]
     runs-on: ubuntu-latest
     steps:
-      - name: Download artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: docs
+#      - name: Download artifacts
+#        uses: actions/download-artifact@v4
+#        with:
+#          name: docs
 
-      - name: Unzip artifact
-        run: unzip -O UTF-8 -qq '${{ env.ARTIFACT }}' -d dir
+#      - name: Unzip artifact
+#        run: unzip -O UTF-8 -qq '${{ env.ARTIFACT }}' -d dir
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -73,7 +75,7 @@ jobs:
       - name: Package and upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dir
+          path: docs
 
       - name: Deploy to GitHub Pages
         id: deployment
