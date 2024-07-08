@@ -12,4 +12,5 @@
         <toc-element topic="技术栈说明.md"/>
     </toc-element>
     <toc-element topic="用户体系.md"/>
+    <toc-element topic="更新日志.md"/>
 </instance-profile>
